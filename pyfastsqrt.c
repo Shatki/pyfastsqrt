@@ -42,7 +42,7 @@ static struct PyModuleDef pyfastsqrt_module =
 {
     PyModuleDef_HEAD_INIT,
     "pyfastsqrt",       /* Имя модуля   */
-    NULL,               /* документация по модулу, может быть NULL */
+    NULL,               /* документация по модулю, может быть NULL */
     -1,                 /* размер прединтерпредатора модуля или -1 если модуль содержит глобальные переменные */
     pyfastsqrt_methods
 };
