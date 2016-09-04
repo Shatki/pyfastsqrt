@@ -30,7 +30,7 @@ pyfastsqrt_inv_sqrt(PyObject *self, PyObject *args)
     float x;
     if(!PyArg_ParseTuple(args, "f", &x))
         return(NULL);
-    return PyLong_FromLong(inv_sqrt(x));
+    return PyFloat_FromDouble(inv_sqrt(x));
 }
 
 static PyMethodDef pyfastsqrt_methods[] = {
